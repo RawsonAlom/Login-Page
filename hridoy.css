@@ -1,0 +1,63 @@
+/*--Header St--*/
+body{
+    padding: 0;
+    margin: 0;
+    background-color: gainsboro;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 200px;
+}
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.navbar{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 6.5%;
+    line-height: 40px;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li{
+    background-color: rgb(89, 94, 97);
+    border: 2px solid;
+    font-size: 30px;
+    padding: 16px;
+    text-align: center;
+    float: left;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbar ul li:hover{
+    background-color: yellow;
+    transition: .2s;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+    margin-top: 20px;
+}
+.navbar ul li ul:hover > li{
+    color: green;
+    border: white 2px solid;
+}
+/*--Header End--*/
