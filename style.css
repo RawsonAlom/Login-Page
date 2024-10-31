@@ -61,3 +61,39 @@ header{
     border: white 2px solid;
 }
 /*--Header End--*/
+/*--Footer St--*/
+footer{
+    background-color: rgb(26, 26, 26);
+    margin-top: 40%;
+    position: absolute;
+    width: 100%;
+}
+.p1{
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -5px;
+}
+.p2{
+    width: 800px;
+    margin-left: 27%;
+    margin-top: -30px;
+}
+.icons{
+    font-size: 40px;
+    word-spacing: 10px;
+    padding: 10px;
+    margin-top: -10px;
+}
+.p3{
+    background-color: black;
+    padding: 10px;
+    font-size: 25px;
+
+}
